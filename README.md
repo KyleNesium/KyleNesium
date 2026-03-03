@@ -1,6 +1,9 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=2E8B57&height=200&section=header&text=Hey,%20I'm%20Kyle&fontSize=36&fontColor=ffffff&animation=fadeIn&fontAlignY=40&fontAlign=20" width="100%" />
+<img align="right" src="./assets/shapes.svg" width="200" />
+
+# Hey, I'm Kyle
 
 Currently leading high-performing teams across **Ringier SA** and **Ringier AG**.
+<br>
 I coach leaders and high performers — helping them navigate growth, careers, and leadership.
 
 ---
