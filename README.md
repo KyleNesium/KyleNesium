@@ -1,17 +1,17 @@
 # Hey, I'm Kyle
 
-**Tech, People & Leadership** · Open-source builder · Cape Town, South Africa
+**Tech, People & Leadership** · Cape Town, South Africa
 
 ---
 
 ### About
 
-I work in tech and [coach leaders](https://virtus.coach) across industries. I'm passionate about people, how teams work, and what it takes to lead well. In my spare time I build developer tools and contribute to open source — mostly things I wish existed.
+I work in tech and [coach leaders](https://virtus.coach) across industries. I'm passionate about people, how teams work, and what it takes to lead well.
 
 ### Currently
 
-- Leading in tech and coaching leaders across industries
-- Building open-source tools in my spare time
+- Senior management and leadershio in the tech space
+- Coaching leaders, managers and individuals across industries
 - Always learning, always iterating
 
 ### GitHub Stats
