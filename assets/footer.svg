@@ -1,44 +1,72 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="60" viewBox="0 0 900 60">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="40" viewBox="0 0 900 40">
   <defs>
     <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur in="SourceGraphic" result="blur">
         <animate attributeName="stdDeviation" values="1;3;1" dur="6s" repeatCount="indefinite"/>
       </feGaussianBlur>
-      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.18 0 0 0 0 0.55 0 0 0 0 0.34 0 0 0 0.6 0" result="greenGlow"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.18 0 0 0 0 0.55 0 0 0 0 0.34 0 0 0 0.7 0" result="g"/>
       <feMerge>
-        <feMergeNode in="greenGlow"/>
+        <feMergeNode in="g"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
   </defs>
 
-  <!-- Animated line left -->
-  <line x1="0" y1="30" x2="350" y2="30" stroke="#2E8B57" stroke-width="1" filter="url(#glow)">
-    <animate attributeName="x2" values="300;380;300" dur="8s" repeatCount="indefinite"/>
-    <animate attributeName="stroke-opacity" values="0.3;0.8;0.3" dur="8s" repeatCount="indefinite"/>
+  <!-- Left line -->
+  <line x1="0" y1="20" x2="320" y2="20" stroke="#2E8B57" stroke-width="0.8" filter="url(#glow)">
+    <animate attributeName="x2" values="280;340;280" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-opacity" values="0.2;0.7;0.2" dur="8s" repeatCount="indefinite"/>
   </line>
 
-  <!-- Small diamond left -->
-  <rect x="370" y="24" width="12" height="12" fill="none" stroke="#3CB371" stroke-width="1" filter="url(#glow)">
-    <animateTransform attributeName="transform" type="rotate" values="45 376 30;405 376 30" dur="15s" repeatCount="indefinite"/>
+  <!-- Left outer diamond -->
+  <rect x="335" y="14" width="12" height="12" fill="none" stroke="#3CB371" stroke-width="0.8" filter="url(#glow)">
+    <animateTransform attributeName="transform" type="rotate" values="45 341 20;405 341 20" dur="12s" repeatCount="indefinite"/>
     <animate attributeName="stroke-opacity" values="0.3;0.8;0.3" dur="5s" repeatCount="indefinite"/>
   </rect>
 
-  <!-- Center dot -->
-  <circle cx="450" cy="30" r="3" fill="#2E8B57" filter="url(#glow)">
-    <animate attributeName="r" values="2;4;2" dur="6s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.5;1;0.5" dur="6s" repeatCount="indefinite"/>
+  <!-- Left inner dot -->
+  <circle cx="370" cy="20" r="2" fill="#2E8B57" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="4s" repeatCount="indefinite"/>
   </circle>
 
-  <!-- Small diamond right -->
-  <rect x="518" y="24" width="12" height="12" fill="none" stroke="#3CB371" stroke-width="1" filter="url(#glow)">
-    <animateTransform attributeName="transform" type="rotate" values="45 524 30;-315 524 30" dur="15s" repeatCount="indefinite"/>
+  <!-- Left small triangle -->
+  <polygon points="390,14 398,26 382,26" fill="none" stroke="#3CB371" stroke-width="0.6" filter="url(#glow)">
+    <animateTransform attributeName="transform" type="rotate" values="0 390 20;-360 390 20" dur="18s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-opacity" values="0.2;0.6;0.2" dur="6s" repeatCount="indefinite"/>
+  </polygon>
+
+  <!-- Center hexagon -->
+  <polygon points="450,8 466,14 466,26 450,32 434,26 434,14" fill="none" stroke="#2E8B57" stroke-width="1" filter="url(#glow)">
+    <animateTransform attributeName="transform" type="rotate" values="0 450 20;360 450 20" dur="20s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="6s" repeatCount="indefinite"/>
+  </polygon>
+
+  <!-- Center pulsing dot -->
+  <circle cx="450" cy="20" r="2" fill="#3CB371" filter="url(#glow)">
+    <animate attributeName="r" values="1.5;3;1.5" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="4s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Right small triangle -->
+  <polygon points="510,14 518,26 502,26" fill="none" stroke="#3CB371" stroke-width="0.6" filter="url(#glow)">
+    <animateTransform attributeName="transform" type="rotate" values="0 510 20;360 510 20" dur="18s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-opacity" values="0.2;0.6;0.2" dur="6s" repeatCount="indefinite"/>
+  </polygon>
+
+  <!-- Right inner dot -->
+  <circle cx="530" cy="20" r="2" fill="#2E8B57" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="4s" begin="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Right outer diamond -->
+  <rect x="553" y="14" width="12" height="12" fill="none" stroke="#3CB371" stroke-width="0.8" filter="url(#glow)">
+    <animateTransform attributeName="transform" type="rotate" values="45 559 20;-315 559 20" dur="12s" repeatCount="indefinite"/>
     <animate attributeName="stroke-opacity" values="0.3;0.8;0.3" dur="5s" repeatCount="indefinite"/>
   </rect>
 
-  <!-- Animated line right -->
-  <line x1="550" y1="30" x2="900" y2="30" stroke="#2E8B57" stroke-width="1" filter="url(#glow)">
-    <animate attributeName="x1" values="600;520;600" dur="8s" repeatCount="indefinite"/>
-    <animate attributeName="stroke-opacity" values="0.3;0.8;0.3" dur="8s" repeatCount="indefinite"/>
+  <!-- Right line -->
+  <line x1="580" y1="20" x2="900" y2="20" stroke="#2E8B57" stroke-width="0.8" filter="url(#glow)">
+    <animate attributeName="x1" values="620;560;620" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-opacity" values="0.2;0.7;0.2" dur="8s" repeatCount="indefinite"/>
   </line>
 </svg>
