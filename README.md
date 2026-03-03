@@ -1,11 +1,6 @@
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=2E8B57&height=200&section=header&fontSize=1" width="100%" />
-
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=32&duration=4000&pause=3000&color=2E8B57&center=true&vCenter=true&repeat=false&width=400&lines=Hey%2C+I'm+Kyle" alt="Typing SVG" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=2E8B57&height=200&section=header&text=Hey,%20I'm%20Kyle&fontSize=36&fontColor=ffffff&animation=fadeIn&fontAlignY=40&fontAlign=20" width="100%" />
 
 Currently leading high-performing teams across **Ringier SA** and **Ringier AG**.
-<br>
 I coach leaders and high performers — helping them navigate growth, careers, and leadership.
 
 ---
@@ -30,5 +25,3 @@ I coach leaders and high performers — helping them navigate growth, careers, a
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=3CB371)](https://www.linkedin.com/in/kyle-steenkamp/)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=2E8B57&height=100&section=footer" width="100%" />
-
-</div>
