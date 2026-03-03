@@ -6,13 +6,7 @@
 
 ### About
 
-I work in tech and [coach leaders](https://virtus.coach) across industries. I'm passionate about people, how teams work, and what it takes to lead well.
-
-### Currently
-
-- Senior management and leadershio in the tech space
-- Coaching leaders, managers and individuals across industries
-- Always learning, always iterating
+15 years in tech, leading teams across **Ringier South Africa** and **Ringier Switzerland**. I also [coach leaders and high performers](https://virtus.coach) — helping them navigate the hard parts of growth, careers, and leadership.
 
 ### Connect
 
