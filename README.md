@@ -6,11 +6,11 @@
 
 ### About
 
-I work at the intersection of technology, people, and leadership — building and scaling engineering teams that ship great software. Outside of work I build developer tools and contribute to open source — mostly things I wish existed.
+I work in tech and [coach leaders](https://virtus.coach) across industries. I'm passionate about people, how teams work, and what it takes to lead well. In my spare time I build developer tools and contribute to open source — mostly things I wish existed.
 
 ### Currently
 
-- Leading and growing engineering teams
+- Leading in tech and coaching leaders across industries
 - Building open-source tools in my spare time
 - Always learning, always iterating
 
