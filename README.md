@@ -1,10 +1,8 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=32&duration=2000&pause=800&color=2E8B57&center=true&vCenter=true&width=600&lines=Hey%2C+I'm+Kyle;Tech+%7C+People+%7C+Leadership;%F0%9F%8F%94%EF%B8%8F+Cape+Town%2C+South+Africa" alt="Typing SVG" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=2E8B57&height=220&section=header&text=Hey,%20I'm%20Kyle&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=30&desc=&descSize=1&descAlignY=50" width="100%" />
 
-<br>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=2E8B57&height=180&section=header&fontSize=1&fontColor=ffffff&animation=fadeIn" width="100%" />
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=20&duration=2000&pause=800&color=ffffff&center=true&vCenter=true&width=500&lines=Tech+%7C+People+%7C+Leadership;%F0%9F%8F%94%EF%B8%8F+Cape+Town%2C+South+Africa" alt="Typing SVG" style="margin-top:-60px" />
 
 <br>
 
