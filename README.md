@@ -1,12 +1,12 @@
 # Hey, I'm Kyle
 
-**Engineering Leader** · Open-source builder · Cape Town, South Africa
+**Leadership** · Open-source builder · Cape Town, South Africa
 
 ---
 
 ### About
 
-I work in leadership in the tech space, building and scaling engineering teams. Outside of work I build developer tools and contribute to open source — mostly things I wish existed.
+I work in leadership, building and scaling engineering teams. Outside of work I build developer tools and contribute to open source — mostly things I wish existed.
 
 ### Currently
 
@@ -30,4 +30,5 @@ I work in leadership in the tech space, building and scaling engineering teams. 
 
 ### Connect
 
+[![Website](https://img.shields.io/badge/virtus.coach-000000?style=for-the-badge&logo=safari&logoColor=white)](https://virtus.coach)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kyle-steenkamp/)
