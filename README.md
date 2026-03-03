@@ -1,18 +1,10 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=2E8B57&height=200&section=header&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Tech%20%7C%20People%20%7C%20Leadership&descSize=16&descColor=3CB371&descAlignY=55" width="100%" />
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=32&duration=2000&pause=800&color=2E8B57&center=true&vCenter=true&width=600&lines=Hey%2C+I'm+Kyle;Tech+%7C+People+%7C+Leadership;%F0%9F%8F%94%EF%B8%8F+Cape+Town%2C+South+Africa" alt="Typing SVG" />
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=32&duration=3000&pause=1000&color=2E8B57&center=true&vCenter=true&width=400&lines=Hey%2C+I'm+Kyle" alt="Typing SVG" />
-
-<br>
-
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=400&size=18&duration=3000&pause=1000&color=3CB371&center=true&vCenter=true&width=500&lines=Cape+Town%2C+South+Africa;Leading+high-performing+teams;Coaching+leaders+%26+high+performers" alt="Typing SVG" />
-
-<br>
-
----
+<img src="https://capsule-render.vercel.app/api?type=waving&color=2E8B57&height=180&section=header&fontSize=1&fontColor=ffffff&animation=fadeIn" width="100%" />
 
 <br>
 
