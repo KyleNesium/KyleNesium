@@ -1,6 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=2E8B57&height=200&section=header&text=Hey,%20I'm%20Kyle&fontSize=36&fontColor=ffffff&animation=fadeIn&fontAlignY=40" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=2E8B57&height=200&section=header&fontSize=1" width="100%" />
+
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=32&duration=4000&pause=3000&color=2E8B57&center=true&vCenter=true&repeat=false&width=400&lines=Hey%2C+I'm+Kyle" alt="Typing SVG" />
 
 <br>
 
