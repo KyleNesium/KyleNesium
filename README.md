@@ -6,7 +6,7 @@
 
 ### About
 
-15 years in tech, leading teams across **Ringier South Africa** and **Ringier Switzerland**. I also [coach leaders and high performers](https://virtus.coach) — helping them navigate the hard parts of growth, careers, and leadership.
+Currently leading high-performing teams across **[Ringier SA](https://ringier.co.za)** and **[Ringier AG](https://ringier.com)**. I also [coach leaders and high performers](https://virtus.coach) — helping them navigate the hard parts of growth, careers, and leadership.
 
 ### Connect
 
