@@ -1,8 +1,16 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=2E8B57&height=220&section=header&text=Hey,%20I'm%20Kyle&fontSize=42&fontColor=ffffff&animation=twinkling&fontAlignY=30&desc=&descSize=1&descAlignY=50" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=2E8B57&height=150&section=header&fontSize=1" width="100%" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=20&duration=4000&pause=1500&color=2E8B57&center=true&vCenter=true&width=500&lines=Tech+%7C+People+%7C+Leadership;%F0%9F%8F%94%EF%B8%8F+Cape+Town%2C+South+Africa" alt="Typing SVG" />
+<img src="./assets/neon-header.svg" width="700" />
+
+<br>
+
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=400&size=18&duration=4000&pause=1500&color=3CB371&center=true&vCenter=true&width=500&lines=Tech+%7C+People+%7C+Leadership;%F0%9F%8F%94%EF%B8%8F+Cape+Town%2C+South+Africa" alt="Typing SVG" />
+
+<br>
+
+---
 
 <br>
 
