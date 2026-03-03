@@ -1,16 +1,16 @@
 # Hey, I'm Kyle
 
-**Leadership** · Open-source builder · Cape Town, South Africa
+**Tech, People & Leadership** · Open-source builder · Cape Town, South Africa
 
 ---
 
 ### About
 
-I work in leadership, building and scaling engineering teams. Outside of work I build developer tools and contribute to open source — mostly things I wish existed.
+I work at the intersection of technology, people, and leadership — building and scaling engineering teams that ship great software. Outside of work I build developer tools and contribute to open source — mostly things I wish existed.
 
 ### Currently
 
-- Leading engineering teams and shipping reliable software at scale
+- Leading and growing engineering teams
 - Building open-source tools in my spare time
 - Always learning, always iterating
 
