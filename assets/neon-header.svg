@@ -16,20 +16,23 @@
       <stop offset="50%" stop-color="#2E8B57"/>
       <stop offset="100%" stop-color="#1a6b3c"/>
     </linearGradient>
+    <!-- Wave path for bottom edge -->
+    <clipPath id="waveClip">
+      <path d="M0 0 H900 V170 Q825 200 750 180 Q675 160 600 180 Q525 200 450 180 Q375 160 300 180 Q225 200 150 180 Q75 160 0 180 Z"/>
+    </clipPath>
   </defs>
 
-  <!-- Green background bar -->
-  <rect x="0" y="0" width="900" height="200" rx="0" ry="0" fill="url(#greenBg)"/>
-
-  <!-- Subtle top highlight -->
-  <rect x="0" y="0" width="900" height="1" fill="#3CB371" opacity="0.6"/>
+  <!-- Green background with wave bottom -->
+  <rect x="0" y="0" width="900" height="200" fill="url(#greenBg)" clip-path="url(#waveClip)"/>
 
   <!-- Main text with slow neon glow -->
-  <text x="450" y="115" text-anchor="middle" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-weight="700" font-size="44" fill="#ffffff" filter="url(#glow)">
+  <text x="450" y="105" text-anchor="middle" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-weight="600" font-size="32" fill="#ffffff" filter="url(#glow)">
     Hey, I'm Kyle
     <animate attributeName="fill-opacity" values="0.85;1;0.85" dur="6s" repeatCount="indefinite"/>
   </text>
 
-  <!-- Subtle bottom highlight -->
-  <rect x="0" y="199" width="900" height="1" fill="#1a6b3c"/>
+  <!-- Typewriter cursor -->
+  <rect x="618" y="82" width="2" height="28" fill="#ffffff">
+    <animate attributeName="fill-opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
 </svg>
