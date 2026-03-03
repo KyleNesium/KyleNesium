@@ -16,7 +16,6 @@
       <stop offset="50%" stop-color="#2E8B57"/>
       <stop offset="100%" stop-color="#1a6b3c"/>
     </linearGradient>
-    <!-- Wave path for bottom edge -->
     <clipPath id="waveClip">
       <path d="M0 0 H900 V170 Q825 200 750 180 Q675 160 600 180 Q525 200 450 180 Q375 160 300 180 Q225 200 150 180 Q75 160 0 180 Z"/>
     </clipPath>
@@ -25,14 +24,30 @@
   <!-- Green background with wave bottom -->
   <rect x="0" y="0" width="900" height="200" fill="url(#greenBg)" clip-path="url(#waveClip)"/>
 
-  <!-- Main text with slow neon glow -->
-  <text x="450" y="105" text-anchor="middle" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-weight="600" font-size="32" fill="#ffffff" filter="url(#glow)">
-    Hey, I'm Kyle
-    <animate attributeName="fill-opacity" values="0.85;1;0.85" dur="6s" repeatCount="indefinite"/>
+  <!-- "Hey, I'm" static -->
+  <text x="365" y="95" text-anchor="middle" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-weight="300" font-size="30" fill="#ffffff" opacity="0">
+    Hey, I'm
+    <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.1;0.3" dur="4s" fill="freeze"/>
+  </text>
+
+  <!-- "Kyle" with neon glow -->
+  <text x="530" y="95" text-anchor="middle" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-weight="700" font-size="38" fill="#ffffff" filter="url(#glow)" opacity="0">
+    Kyle
+    <animate attributeName="opacity" values="0;0;0;1" keyTimes="0;0.2;0.35;0.55" dur="4s" fill="freeze"/>
+    <animate attributeName="fill-opacity" values="0.85;1;0.85" dur="6s" begin="2s" repeatCount="indefinite"/>
   </text>
 
   <!-- Typewriter cursor -->
-  <rect x="618" y="82" width="2" height="28" fill="#ffffff">
-    <animate attributeName="fill-opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  <rect x="570" y="72" width="2" height="28" fill="#ffffff">
+    <animate attributeName="fill-opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite"/>
+    <!-- Cursor moves: starts left, moves to end of "Hey, I'm", then end of "Kyle" -->
+    <animate attributeName="x" values="310;420;420;570;570" keyTimes="0;0.15;0.2;0.4;1" dur="4s" fill="freeze"/>
   </rect>
+
+  <!-- Subtitle that fades in after name -->
+  <text x="450" y="140" text-anchor="middle" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-weight="400" font-size="14" fill="#ffffff" letter-spacing="6" opacity="0">
+    TECH  ·  PEOPLE  ·  LEADERSHIP
+    <animate attributeName="opacity" values="0;0;0;1" keyTimes="0;0.5;0.7;1" dur="4s" fill="freeze"/>
+    <animate attributeName="letter-spacing" values="12;6" dur="0.8s" begin="3s" fill="freeze"/>
+  </text>
 </svg>

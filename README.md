@@ -6,7 +6,7 @@
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=400&size=18&duration=4000&pause=1500&color=3CB371&center=true&vCenter=true&width=500&lines=Tech+%7C+People+%7C+Leadership;%F0%9F%8F%94%EF%B8%8F+Cape+Town%2C+South+Africa" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=400&size=18&duration=4000&pause=1500&color=3CB371&center=true&vCenter=true&width=500&lines=%F0%9F%8F%94%EF%B8%8F+Cape+Town%2C+South+Africa" alt="Typing SVG" />
 
 <br>
 
