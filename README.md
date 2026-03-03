@@ -1,14 +1,24 @@
-# Hey, I'm Kyle
+```
+╔══════════════════════════════════════════════════════════════╗
+║                                                              ║
+║   $ whoami                                                   ║
+║   > Kyle Steenkamp                                           ║
+║   > Cape Town, South Africa                                  ║
+║                                                              ║
+╚══════════════════════════════════════════════════════════════╝
+```
 
-**Tech, People & Leadership** · Cape Town, South Africa
+```bash
+$ cat about.txt
+```
+> Currently leading high-performing teams across
+> **[Ringier SA](https://ringier.co.za)** and **[Ringier AG](https://ringier.com)**.
+> I also [coach leaders and high performers](https://virtus.coach) —
+> helping them navigate the hard parts of growth, careers, and leadership.
 
----
+```bash
+$ ls connect/
+```
 
-### About
-
-Currently leading high-performing teams across **[Ringier SA](https://ringier.co.za)** and **[Ringier AG](https://ringier.com)**. I also [coach leaders and high performers](https://virtus.coach) — helping them navigate the hard parts of growth, careers, and leadership.
-
-### Connect
-
-[![Website](https://img.shields.io/badge/virtus.coach-000000?style=for-the-badge&logo=safari&logoColor=white)](https://virtus.coach)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kyle-steenkamp/)
+[![Website](https://img.shields.io/badge/virtus.coach-00FF00?style=for-the-badge&logo=safari&logoColor=black)](https://virtus.coach)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-00FF00?style=for-the-badge&logo=linkedin&logoColor=black)](https://www.linkedin.com/in/kyle-steenkamp/)
