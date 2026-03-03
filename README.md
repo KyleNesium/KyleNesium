@@ -1,8 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=2E8B57&height=150&section=header&fontSize=1" width="100%" />
-
-<img src="./assets/neon-header.svg" width="700" />
+<img src="./assets/neon-header.svg" width="100%" />
 
 <br>
 
