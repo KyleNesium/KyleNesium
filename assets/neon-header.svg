@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="40" viewBox="0 0 500 40">
+  <defs>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur in="SourceGraphic" result="blur">
+        <animate attributeName="stdDeviation" values="2;6;2" dur="6s" repeatCount="indefinite"/>
+      </feGaussianBlur>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.11 0 0 0 0 0.42 0 0 0 0 0.24 0 0 0 0.9 0" result="deepGreenGlow"/>
+      <feMerge>
+        <feMergeNode in="deepGreenGlow"/>
+        <feMergeNode in="deepGreenGlow"/>
+        <feMergeNode in="deepGreenGlow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <text x="250" y="28" text-anchor="middle" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-weight="500" font-size="18" fill="#1a6b3c" filter="url(#glow)">
+    🏔️ Cape Town, South Africa
+  </text>
+</svg>
