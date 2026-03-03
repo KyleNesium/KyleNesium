@@ -10,17 +10,21 @@
 
 <br>
 
-</div>
+---
+
+<br>
+
+Currently leading high-performing teams across **Ringier SA** and **Ringier AG**.
+<br>
+I also coach leaders and high performers — helping them navigate
+<br>
+the hard parts of growth, careers, and leadership.
+
+<br>
 
 ---
 
-<div align="center">
-
-Currently leading high-performing teams across **[Ringier SA](https://ringier.co.za)** and **[Ringier AG](https://ringier.com)**.
 <br>
-I also [coach leaders and high performers](https://virtus.coach) — helping them navigate the hard parts of growth, careers, and leadership.
-
-<br><br>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=KyleNesium&show_icons=true&bg_color=0d1117&title_color=2E8B57&text_color=c9d1d9&icon_color=3CB371&hide_border=true&hide_title=true&include_all_commits=true" />
@@ -36,11 +40,9 @@ I also [coach leaders and high performers](https://virtus.coach) — helping the
   <img alt="GitHub Streak" src="https://github-readme-streak-stats.herokuapp.com?user=KyleNesium&background=0d1117&ring=2E8B57&fire=3CB371&currStreakLabel=2E8B57&sideLabels=c9d1d9&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=6e7681&hide_border=true" />
 </picture>
 
-</div>
+<br>
 
 ---
-
-<div align="center">
 
 <br>
 
