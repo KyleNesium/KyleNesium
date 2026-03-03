@@ -1,8 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=2E8B57&height=120&section=header&fontSize=1" width="100%" />
-
-<img src="./assets/neon-header.svg" width="600" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=2E8B57&height=200&section=header&text=Hey,%20I'm%20Kyle&fontSize=36&fontColor=ffffff&animation=twinkling&fontAlignY=40" width="100%" />
 
 <br>
 
