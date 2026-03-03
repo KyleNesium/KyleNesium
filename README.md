@@ -2,11 +2,11 @@
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=28&duration=4000&pause=1000&color=2E8B57&center=true&vCenter=true&width=500&lines=Hey%2C+I'm+Kyle;Tech+%7C+People+%7C+Leadership" alt="Typing SVG" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=2E8B57&height=200&section=header&text=Hey,%20I'm%20Kyle&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Tech%20%7C%20People%20%7C%20Leadership&descSize=16&descColor=3CB371&descAlignY=55" width="100%" />
 
 <br>
 
-**Cape Town, South Africa**
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=20&duration=3000&pause=1000&color=2E8B57&center=true&vCenter=true&width=500&lines=Cape+Town%2C+South+Africa;Leading+high-performing+teams;Coaching+leaders+%26+high+performers" alt="Typing SVG" />
 
 <br>
 
@@ -23,6 +23,10 @@ the hard parts of growth, careers, and leadership.
 <br>
 
 ---
+
+<br>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=KyleNesium&bg_color=0d1117&color=3CB371&line=2E8B57&point=ffffff&area=true&area_color=2E8B57&hide_border=true" width="95%" />
 
 <br>
 
@@ -52,5 +56,7 @@ the hard parts of growth, careers, and leadership.
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=3CB371)](https://www.linkedin.com/in/kyle-steenkamp/)
 
 <br>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=2E8B57&height=100&section=footer" width="100%" />
 
 </div>
