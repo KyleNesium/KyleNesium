@@ -9,7 +9,7 @@
       </feMerge>
     </filter>
   </defs>
-  <rect x="1" y="1" width="124" height="30" rx="15" ry="15" fill="#0d1117" stroke="#2E8B57" stroke-width="1" filter="url(#glow)"/>
+  <rect x="1" y="1" width="124" height="30" rx="15" ry="15" fill="none" stroke="#2E8B57" stroke-width="1" filter="url(#glow)"/>
   <!-- LinkedIn icon -->
   <rect x="17" y="10" width="12" height="12" rx="2" fill="none" stroke="#3CB371" stroke-width="1.2"/>
   <line x1="21" y1="15" x2="21" y2="22" stroke="#3CB371" stroke-width="1.2" stroke-linecap="round"/>
