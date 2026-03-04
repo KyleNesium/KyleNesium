@@ -4,6 +4,7 @@
 
 Currently leading high-performing teams across **Ringier SA** and **Ringier AG**.<br />
 [Certified Integral Coach®](https://newventureswest.com) — I coach leaders, high performers and anyone ready to grow.
+
 <br clear="right"/>
 
 ---
