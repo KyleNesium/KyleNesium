@@ -3,7 +3,7 @@
 <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=32&duration=4000&pause=3000&color=2E8B57&vCenter=true&repeat=false&width=400&lines=Hey%2C+I'm+Kyle" alt="Typing SVG" />
 
 Currently leading high-performing teams across **Ringier SA** and **Ringier AG**.<br />
-[Certified Integral Coach®](https://newventureswest.com) through **New Ventures West**, helping leaders & high performers navigate growth.
+[Certified Integral Coach®](https://newventureswest.com), helping leaders & high performers navigate growth.
 
 <br clear="right"/>
 
