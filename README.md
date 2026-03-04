@@ -2,7 +2,7 @@
 
 # Hey, I'm Kyle
 
-Currently leading high-performing teams across **Ringier SA** and **Ringier AG**.
+Currently leading high-performing teams across **Ringier SA** and **Ringier AG**.<br />
 I coach leaders & high performers, helping them navigate growth.
 
 <br clear="right"/>
