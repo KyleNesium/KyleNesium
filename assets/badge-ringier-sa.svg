@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="32" viewBox="0 0 140 32">
+  <defs>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="1.5"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.18 0 0 0 0 0.55 0 0 0 0 0.34 0 0 0 0.5 0" result="g"/>
+      <feMerge>
+        <feMergeNode in="g"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect x="1" y="1" width="138" height="30" rx="15" ry="15" fill="none" stroke="#2E8B57" stroke-width="0.8" opacity="0.6" filter="url(#glow)"/>
+  <!-- Home icon -->
+  <path d="M18 12l7-5.5 7 5.5v8.5a1.5 1.5 0 0 1-1.5 1.5h-3a1.5 1.5 0 0 1-1.5-1.5V17h-3v3.5a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 16 20.5z" fill="none" stroke="#3CB371" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" opacity="0.8" transform="translate(-2, 0)"/>
+  <text x="40" y="20.5" font-family="Inter, -apple-system, Segoe UI, sans-serif" font-size="12" font-weight="500" fill="#3CB371" opacity="0.85" letter-spacing="0.5">Ringier SA</text>
+</svg>
