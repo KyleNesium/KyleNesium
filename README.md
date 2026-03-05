@@ -8,7 +8,4 @@ I coach leaders & high performers, helping them navigate growth.
 
 ---
 
-<div align="center">
-
-<img src="./assets/side-anim-h.svg" width="120" /> [![Ringier SA](./assets/badge-ringier-sa.svg)](https://ringier.co.za) [![Ringier AG](./assets/badge-ringier-ag.svg)](https://ringier.com) [![Coaching](./assets/badge-coaching.svg)](https://virtus.coach) [![LinkedIn](./assets/badge-linkedin.svg)](https://www.linkedin.com/in/kyle-steenkamp/) <img src="./assets/side-anim-h.svg" width="120" />
-</div>
+<p align="center"><img src="./assets/footer.svg" width="600" /></p>
