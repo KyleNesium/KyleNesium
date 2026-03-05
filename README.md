@@ -10,5 +10,7 @@ I coach leaders & high performers, helping them navigate growth.
 
 <div align="center">
 
-<img src="./assets/side-anim-h.svg" width="120" /> [![Ringier SA](./assets/badge-ringier-sa.svg)](https://ringier.co.za) [![Ringier AG](./assets/badge-ringier-ag.svg)](https://ringier.com) [![Coaching](./assets/badge-coaching.svg)](https://virtus.coach) [![LinkedIn](./assets/badge-linkedin.svg)](https://www.linkedin.com/in/kyle-steenkamp/) <img src="./assets/side-anim-h.svg" width="120" />
+[![AI Battery](./assets/badge-aibattery.svg)](https://github.com/KyleNesium/AIBattery) [![aibattery.dev](./assets/badge-aibattery-web.svg)](https://aibattery.dev) [![GitHub stars](https://img.shields.io/github/stars/KyleNesium/AIBattery?style=flat&logo=github&label=Stars&color=2E8B57)](https://github.com/KyleNesium/AIBattery) [![Downloads](https://img.shields.io/github/downloads/KyleNesium/AIBattery/total?style=flat&logo=apple&label=Downloads&color=2E8B57)](https://github.com/KyleNesium/AIBattery/releases/latest)
 </div>
+
+<p align="center"><img src="./assets/footer.svg" width="600" /></p>
