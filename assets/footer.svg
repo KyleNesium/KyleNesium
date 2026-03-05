@@ -12,61 +12,101 @@
     </filter>
   </defs>
 
-  <!-- Left line -->
+  <!-- Left line with pulse traveling right -->
   <line x1="0" y1="9" x2="175" y2="9" stroke="#2E8B57" stroke-width="0.5" filter="url(#glow)">
     <animate attributeName="x2" values="165;185;165" dur="8s" repeatCount="indefinite"/>
     <animate attributeName="stroke-opacity" values="0.15;0.5;0.15" dur="8s" repeatCount="indefinite"/>
   </line>
-
-  <!-- Diamond 1 -->
-  <rect x="192" y="3" width="10" height="10" fill="none" stroke="#3CB371" stroke-width="0.7" filter="url(#glow)">
-    <animateTransform attributeName="transform" type="rotate" values="45 197 8;405 197 8" dur="12s" repeatCount="indefinite"/>
-    <animate attributeName="stroke-opacity" values="0.3;0.8;0.3" dur="5s" repeatCount="indefinite"/>
-  </rect>
-
-  <!-- Dot 1 -->
-  <circle cx="225" cy="9" r="1.5" fill="#2E8B57" filter="url(#glow)">
-    <animate attributeName="opacity" values="0.3;1;0.3" dur="4s" repeatCount="indefinite"/>
+  <!-- Traveling spark left -->
+  <circle r="1.2" fill="#3CB371" filter="url(#glow)">
+    <animate attributeName="cx" values="0;180;0" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="9;9;9" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.9;0" dur="6s" repeatCount="indefinite"/>
   </circle>
 
-  <!-- Triangle -->
+  <!-- Diamond 1 — spinning + scaling -->
+  <rect x="192" y="3" width="10" height="10" fill="none" stroke="#3CB371" stroke-width="0.7" filter="url(#glow)">
+    <animateTransform attributeName="transform" type="rotate" values="45 197 8;405 197 8" dur="10s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-opacity" values="0.3;0.9;0.3" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-width" values="0.5;1;0.5" dur="4s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Dot 1 — bounce -->
+  <circle cx="225" cy="9" r="1.5" fill="#2E8B57" filter="url(#glow)">
+    <animate attributeName="cy" values="9;6;9" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="1.5;2.2;1.5" dur="3s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Triangle — spinning + wobble -->
   <polygon points="250,3 257,15 243,15" fill="none" stroke="#3CB371" stroke-width="0.5" filter="url(#glow)">
-    <animateTransform attributeName="transform" type="rotate" values="0 250 9;-360 250 9" dur="18s" repeatCount="indefinite"/>
-    <animate attributeName="stroke-opacity" values="0.2;0.6;0.2" dur="6s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="rotate" values="0 250 9;-360 250 9" dur="14s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-opacity" values="0.2;0.8;0.2" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-width" values="0.4;0.8;0.4" dur="5s" repeatCount="indefinite"/>
   </polygon>
 
-  <!-- Center hexagon -->
+  <!-- Orbiting dot around triangle -->
+  <circle r="1" fill="#2E8B57" filter="url(#glow)" opacity="0.7">
+    <animateTransform attributeName="transform" type="rotate" values="0 250 9;360 250 9" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="cx" values="250;250;250" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="-1;-1;-1" dur="5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Center hexagon — spinning + pulsing stroke -->
   <polygon points="300,1 310,5 310,13 300,17 290,13 290,5" fill="none" stroke="#2E8B57" stroke-width="0.7" filter="url(#glow)">
-    <animateTransform attributeName="transform" type="rotate" values="0 300 9;360 300 9" dur="20s" repeatCount="indefinite"/>
-    <animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="6s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="rotate" values="0 300 9;360 300 9" dur="16s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-width" values="0.5;1.2;0.5" dur="4s" repeatCount="indefinite"/>
+  </polygon>
+
+  <!-- Inner hexagon counter-rotating -->
+  <polygon points="300,3.5 306,6 306,12 300,14.5 294,12 294,6" fill="none" stroke="#3CB371" stroke-width="0.4" filter="url(#glow)" opacity="0.5">
+    <animateTransform attributeName="transform" type="rotate" values="30 300 9;-330 300 9" dur="12s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-opacity" values="0.2;0.6;0.2" dur="5s" repeatCount="indefinite"/>
   </polygon>
 
   <!-- Center pulsing dot -->
   <circle cx="300" cy="9" r="1.2" fill="#3CB371" filter="url(#glow)">
-    <animate attributeName="r" values="0.8;2;0.8" dur="4s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.5;1;0.5" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="0.6;2.5;0.6" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="3s" repeatCount="indefinite"/>
   </circle>
 
-  <!-- Triangle 2 -->
+  <!-- Orbiting dot around center -->
+  <circle cx="300" cy="0" r="0.8" fill="#3CB371" filter="url(#glow)">
+    <animateTransform attributeName="transform" type="rotate" values="0 300 9;360 300 9" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.3;0.9;0.3" dur="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Triangle 2 — spinning + wobble -->
   <polygon points="350,3 357,15 343,15" fill="none" stroke="#3CB371" stroke-width="0.5" filter="url(#glow)">
-    <animateTransform attributeName="transform" type="rotate" values="0 350 9;360 350 9" dur="18s" repeatCount="indefinite"/>
-    <animate attributeName="stroke-opacity" values="0.2;0.6;0.2" dur="6s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="rotate" values="0 350 9;360 350 9" dur="14s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-opacity" values="0.2;0.8;0.2" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-width" values="0.4;0.8;0.4" dur="5s" begin="2.5s" repeatCount="indefinite"/>
   </polygon>
 
-  <!-- Dot 2 -->
+  <!-- Dot 2 — bounce -->
   <circle cx="375" cy="9" r="1.5" fill="#2E8B57" filter="url(#glow)">
-    <animate attributeName="opacity" values="0.3;1;0.3" dur="4s" begin="2s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="9;12;9" dur="3s" begin="1.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="3s" begin="1.5s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="1.5;2.2;1.5" dur="3s" begin="1.5s" repeatCount="indefinite"/>
   </circle>
 
-  <!-- Diamond 2 -->
+  <!-- Diamond 2 — spinning + scaling -->
   <rect x="395" y="3" width="10" height="10" fill="none" stroke="#2E8B57" stroke-width="0.7" filter="url(#glow)">
-    <animateTransform attributeName="transform" type="rotate" values="45 400 8;-315 400 8" dur="15s" repeatCount="indefinite"/>
-    <animate attributeName="stroke-opacity" values="0.3;0.8;0.3" dur="5s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="rotate" values="45 400 8;-315 400 8" dur="10s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-opacity" values="0.3;0.9;0.3" dur="4s" begin="2s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-width" values="0.5;1;0.5" dur="4s" begin="2s" repeatCount="indefinite"/>
   </rect>
 
-  <!-- Right line -->
+  <!-- Right line with pulse traveling left -->
   <line x1="420" y1="9" x2="600" y2="9" stroke="#2E8B57" stroke-width="0.5" filter="url(#glow)">
     <animate attributeName="x1" values="425;415;425" dur="8s" repeatCount="indefinite"/>
     <animate attributeName="stroke-opacity" values="0.15;0.5;0.15" dur="8s" repeatCount="indefinite"/>
   </line>
+  <!-- Traveling spark right -->
+  <circle r="1.2" fill="#3CB371" filter="url(#glow)">
+    <animate attributeName="cx" values="600;420;600" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="9;9;9" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.9;0" dur="6s" repeatCount="indefinite"/>
+  </circle>
 </svg>
